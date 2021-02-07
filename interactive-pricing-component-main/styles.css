@@ -6,8 +6,9 @@
  --main-bg-color: hsl(220, 100%, 99%)
 }
 body{
-
+  font-weight: 600;
   font-family: 'Manrope', serif;
+  height: 100vh;
 }
 /* Header */
 header{
@@ -16,6 +17,7 @@ header{
 
 header h2{
     color: hsl(227, 35%, 25%);
+    font-weight: 800;
 }
 header span{
     color:  hsl(225, 20%, 60%);
@@ -33,7 +35,6 @@ header{
     flex-direction: column;
     align-items: center;
     height: 32vh;
-    border: 2px solid black;
 }
 
 header h2{
@@ -41,7 +42,6 @@ header h2{
 }
 
 header span{
-    width: 75%;
     margin-top: 1vh;
     display: flex;
     justify-content: center;
@@ -53,5 +53,14 @@ header span{
   background-repeat: no-repeat;
   height: 35vh;
 
+}
+
+/* Card */
+.card{
+    height: 55vh;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 85vw;
+    margin: auto;
 }
 }
